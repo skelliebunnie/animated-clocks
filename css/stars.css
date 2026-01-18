@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* adapted from https://github.com/Tiarama/Twinkle-Twinkle */
 #star-container {
   position: absolute;
   top: 0;
