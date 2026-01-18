@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="./css/clock.css">
 	<link rel="stylesheet" href="./css/stars.css">
 	<link rel="stylesheet" href="./css/waves.css">
+	<link rel="stylesheet" href="./css/sunset.css">
 </head>
 
 <?php $activePage = basename($_SERVER['PHP_SELF'], ".php"); ?>

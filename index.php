@@ -15,5 +15,8 @@
 			<div class="wave waveBottom" style="background-image: url('./img/wave3.svg');"></div>
 		</div>
 	</div>
+	<div class="hillsWrapper">
+		<div class="hills" style="background-image: url('./img/hills.svg');"></div>
+	</div>
 	<div id="star-container"></div>
 <?php include './templates/footer.php'; ?>
