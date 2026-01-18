@@ -1,0 +1,18 @@
+a {
+	color: white;
+	text-decoration: none;
+	padding: 4px 12px;
+	font-weight: 500;
+	
+	&.current {
+		background: white;
+		color: black;
+		border-radius: 4px;
+	}
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+	z-index: 200;
+}
