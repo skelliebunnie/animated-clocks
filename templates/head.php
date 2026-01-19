@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="./css/stars.css">
 	<link rel="stylesheet" href="./css/waves.css">
 	<link rel="stylesheet" href="./css/sunset.css">
+	<link rel="stylesheet" href="./css/clouds.css">
 </head>
 
 <?php $activePage = basename($_SERVER['PHP_SELF'], ".php"); ?>

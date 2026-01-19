@@ -1,0 +1,66 @@
+/* adapted from https://codepen.io/Szeviva/pen/MWeGoza */
+
+@keyframes move_cloud {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(1)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+
+.cloudsWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+	transform: rotate(180deg); /* moves waves to top */
+	z-index: 199;
+    
+    .cloudWrapperInner {
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+        bottom: -1px;
+        /* background-image: linear-gradient(to top, rgba(134, 55, 123,0.5) 20%, rgba(39, 39, 60,0.5) 80%); */
+    }
+    .bgTop {
+        z-index: 15;
+        opacity: 0.5;
+    }
+    .bgMiddle {
+        z-index: 10;
+        opacity: 0.75;
+    }
+    .bgBottom {
+        z-index: 5;
+    }
+    .cloud {
+        position: absolute;
+        left: 0;
+        width: 200%;
+        height: 100%;
+        background-repeat: repeat no-repeat;
+        background-position: 0 bottom;
+        transform-origin: center bottom;
+    }
+    .cloudTop {
+        background-size: 100% auto;
+        animation: move_cloud 30s linear infinite;
+    }
+    .cloudMiddle {
+        background-size: 100% auto;
+        animation: move_cloud 33s linear infinite;
+    }
+    .cloudBottom {
+        background-size: 100% auto;
+        animation: move_cloud 27s linear infinite;
+    }
+}

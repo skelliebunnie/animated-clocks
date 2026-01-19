@@ -2,7 +2,6 @@
 
 const starContainer = document.getElementById('star-container');
 const smallStars = starContainer.classList.contains("small-stars");
-console.log("small stars?", smallStars);
 
 for (let i = 0; i < 145; i++) {
     let speed = smallStars ? 3 : 1.5;

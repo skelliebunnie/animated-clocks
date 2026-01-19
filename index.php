@@ -16,7 +16,9 @@
 		</div>
 	</div>
 	<div class="hillsWrapper">
-		<div class="hills" style="background-image: url('./img/hills.svg');"></div>
+		<div class="hillsWrapperInner">
+			<div class="hills" style="background-image: url('./img/hills.svg');"></div>
+		</div>
 	</div>
 	<div id="star-container"></div>
 <?php include './templates/footer.php'; ?>
